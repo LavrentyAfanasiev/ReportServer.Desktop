@@ -97,10 +97,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <None Include="Views\CronEditorView.ammy" />
-    <None Include="Views\CronEditorView.g.xaml">
-      <DependentUpon>CronEditorView.ammy</DependentUpon>
-    </None>
     <None Include="Views\OperTemplatesManagerView.ammy" />
     <None Include="Views\RecepientManagerView.ammy" />
     <None Include="Views\RecepientManagerView.g.xaml">
@@ -133,10 +129,7 @@
     <None Include="Views\WpfResources\SelectedTaskInstancesView.g.xaml">
       <DependentUpon>SelectedTaskInstancesView.ammy</DependentUpon>
     </None>
-    <None Include="Views\TaskManagerView.ammy" />
-    <None Include="Views\TaskManagerView.g.xaml">
-      <DependentUpon>TaskManagerView.ammy</DependentUpon>
-    </None>
+  
     <None Include="Views\WpfResources\TaskListView.ammy" />
     <None Include="Views\WpfResources\TaskListView.g.xaml">
       <DependentUpon>TaskListView.ammy</DependentUpon>
@@ -207,7 +200,7 @@
       <DependentUpon>SelectedTaskInstancesView.ammy</DependentUpon>
     </Compile>
     <Compile Include="Views\TaskManagerView.xaml.cs">
-      <DependentUpon>TaskManagerView.ammy</DependentUpon>
+     
     </Compile>
     <Compile Include="Views\WpfResources\TaskListView.xaml.cs">
       <DependentUpon>TaskListView.ammy</DependentUpon>
@@ -315,7 +308,7 @@
     <Page Include="Views\TaskManagerView.g.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
-      <DependentUpon>TaskManagerView.ammy</DependentUpon>
+     
     </Page>
     <Page Include="Views\CronEditorView.g.xaml">
       <SubType>Designer</SubType>
