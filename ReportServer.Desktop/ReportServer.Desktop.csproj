@@ -102,6 +102,11 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="AmmyExpression\ExpressionBuilder.cs" />
+    <Compile Include="AmmyExpression\ExpressionConverter.cs" />
+    <Compile Include="AmmyExpression\KnownTypes.cs" />
+    <Compile Include="AmmyExpression\NumericTypes.cs" />
+    
     <Compile Include="Entities\CachedServiceEntities.cs" />
     <Compile Include="Entities\OperationConfigs.cs" />
     <Compile Include="Entities\OperationPackage.cs" />
@@ -299,8 +304,6 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Ammy" Version="1.2.94" />
-    <PackageReference Include="Ammy.WPF" Version="1.2.94" />
     <PackageReference Include="Autofac" Version="4.9.2" />
     <PackageReference Include="AutoMapper" Version="8.1.1" />
     <PackageReference Include="Castle.Core" Version="4.3.1" />
