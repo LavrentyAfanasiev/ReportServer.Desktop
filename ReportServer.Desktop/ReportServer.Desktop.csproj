@@ -97,43 +97,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <None Include="Views\OperTemplatesManagerView.ammy" />
-    <None Include="Views\RecepientManagerView.ammy" />
-    <None Include="Views\RecepientManagerView.g.xaml">
-      <DependentUpon>RecepientManagerView.ammy</DependentUpon>
-    </None>
-    <None Include="Views\ScheduleManagerView.ammy" />
-    <None Include="Views\ScheduleManagerView.g.xaml">
-      <DependentUpon>ScheduleManagerView.ammy</DependentUpon>
-    </None>
-    <None Include="Views\WpfResources\IncomingPackagesControl.ammy" />
-    <None Include="Views\WpfResources\OperInstancesView.ammy" />
-    <None Include="Views\WpfResources\OperInstancesView.g.xaml">
-      <DependentUpon>OperInstancesView.ammy</DependentUpon>
-    </None>
-    <None Include="Views\OperEditorView.ammy" />
-    <None Include="Views\OperEditorView.g.xaml">
-      <DependentUpon>OperEditorView.ammy</DependentUpon>
-    </None>
-    <None Include="Views\TaskEditorView.ammy" />
-    <None Include="Views\TaskEditorView.g.xaml">
-      <DependentUpon>TaskEditorView.ammy</DependentUpon>
-    </None>
-    <None Include="Views\WpfResources\OperTemplatesListView.ammy" />
-    <None Include="Views\WpfResources\RecepientEditorView.ammy" />
-    <None Include="Views\WpfResources\SelectedInstanceFullView.ammy" />
-    <None Include="Views\WpfResources\SelectedInstanceFullView.g.xaml">
-      <DependentUpon>SelectedInstanceFullView.ammy</DependentUpon>
-    </None>
-    <None Include="Views\WpfResources\SelectedTaskInstancesView.ammy" />
-    <None Include="Views\WpfResources\SelectedTaskInstancesView.g.xaml">
-      <DependentUpon>SelectedTaskInstancesView.ammy</DependentUpon>
-    </None>
   
-    <None Include="Views\WpfResources\TaskListView.ammy" />
-    <None Include="Views\WpfResources\TaskListView.g.xaml">
-      <DependentUpon>TaskListView.ammy</DependentUpon>
-    </None>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -156,59 +120,57 @@
     <Compile Include="ViewModels\Editors\TaskEditorViewModel.cs" />
     <Compile Include="ViewModels\General\TaskManagerViewModel.cs" />
     <Compile Include="Views\CronEditorView.xaml.cs">
-      <DependentUpon>CronEditorView.ammy</DependentUpon>
+     
     </Compile>
     <Compile Include="Views\OperTemplatesManagerView.ammy.cs">
-      <DependentUpon>OperTemplatesManagerView.ammy</DependentUpon>
+  
     </Compile>
     <Compile Include="Views\RecepientManagerView.xaml.cs">
-      <DependentUpon>RecepientManagerView.ammy</DependentUpon>
+    
     </Compile>
     <Compile Include="Views\ScheduleManagerView.xaml.cs">
-      <DependentUpon>ScheduleManagerView.ammy</DependentUpon>
+ 
     </Compile>
     <Compile Include="Views\WpfResources\ComboboxSearcher.cs" />
     <Compile Include="Views\WpfResources\IncomingPackagesControl.ammy.cs">
-      <DependentUpon>IncomingPackagesControl.ammy</DependentUpon>
+    
     </Compile>
     <Compile Include="Views\WpfResources\TextBoxInputBehavior.cs" />
     <Compile Include="BootsTrap.cs" />
     <Compile Include="Views\WpfResources\OperInstancesView.xaml.cs">
-      <DependentUpon>OperInstancesView.ammy</DependentUpon>
+    
     </Compile>
     <Compile Include="Views\WpfResources\ManualPropertyGrid.cs" />
     <Compile Include="Views\WpfResources\OperTemplatesListView.ammy.cs">
-      <DependentUpon>OperTemplatesListView.ammy</DependentUpon>
+    
     </Compile>
     <Compile Include="Views\WpfResources\PropertyGridHelpers.cs" />
     <Compile Include="Views\WpfResources\Converters.cs" />
     <Compile Include="Entities\CoreEntities.cs" />
     <Compile Include="Interfaces\ICachedService.cs" />
     <Compile Include="Views\OperEditorView.xaml.cs">
-      <DependentUpon>OperEditorView.ammy</DependentUpon>
+     
     </Compile>
     <Compile Include="Views\TaskEditorView.xaml.cs">
-      <DependentUpon>TaskEditorView.ammy</DependentUpon>
+    
     </Compile>
     <Compile Include="Views\WpfResources\RecepientEditorView.ammy.cs">
-      <DependentUpon>RecepientEditorView.ammy</DependentUpon>
+    
     </Compile>
     <Compile Include="Views\WpfResources\SelectedInstanceFullView.xaml.cs">
-      <DependentUpon>SelectedInstanceFullView.ammy</DependentUpon>
+   
     </Compile>
     <Compile Include="Views\WpfResources\SelectedTaskInstancesView.xaml.cs">
-      <DependentUpon>SelectedTaskInstancesView.ammy</DependentUpon>
+   
     </Compile>
     <Compile Include="Views\TaskManagerView.xaml.cs">
      
     </Compile>
     <Compile Include="Views\WpfResources\TaskListView.xaml.cs">
-      <DependentUpon>TaskListView.ammy</DependentUpon>
+    
     </Compile>
-    <None Include="Views\WpfResources\TemplatesDictionary.ammy" />
-    <None Include="Views\WpfResources\TemplatesDictionary.g.xaml">
-      <DependentUpon>TemplatesDictionary.ammy</DependentUpon>
-    </None>
+   
+  
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Views\WpfResources\Validators.cs" />
@@ -231,7 +193,7 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <None Include="lib.ammy" />
+
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -263,47 +225,47 @@
     <Page Include="Views\OperTemplatesManagerView.g.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
-      <DependentUpon>OperTemplatesManagerView.ammy</DependentUpon>
+   
     </Page>
     <Page Include="Views\WpfResources\IncomingPackagesControl.g.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
-      <DependentUpon>IncomingPackagesControl.ammy</DependentUpon>
+  
     </Page>
     <Page Include="Views\WpfResources\OperTemplatesListView.g.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
-      <DependentUpon>OperTemplatesListView.ammy</DependentUpon>
+ 
     </Page>
     <Page Include="Views\WpfResources\RecepientEditorView.g.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
-      <DependentUpon>RecepientEditorView.ammy</DependentUpon>
+   
     </Page>
     <Page Include="Views\WpfResources\TemplatesDictionary.g.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
-      <DependentUpon>TemplatesDictionary.ammy</DependentUpon>
+     
     </Page>
     <Page Include="Views\WpfResources\TaskListView.g.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
-      <DependentUpon>TaskListView.ammy</DependentUpon>
+  
     </Page>
     <Page Include="Views\WpfResources\OperInstancesView.g.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
-      <DependentUpon>OperInstancesView.ammy</DependentUpon>
+  
     </Page>
     <Page Include="Views\WpfResources\SelectedInstanceFullView.g.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
-      <DependentUpon>SelectedInstanceFullView.ammy</DependentUpon>
+ 
     </Page>
     <Page Include="Views\WpfResources\SelectedTaskInstancesView.g.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
-      <DependentUpon>SelectedTaskInstancesView.ammy</DependentUpon>
+   
     </Page>
     <Page Include="Views\TaskManagerView.g.xaml">
       <SubType>Designer</SubType>
@@ -313,27 +275,27 @@
     <Page Include="Views\CronEditorView.g.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
-      <DependentUpon>CronEditorView.ammy</DependentUpon>
+    
     </Page>
     <Page Include="Views\RecepientManagerView.g.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
-      <DependentUpon>RecepientManagerView.ammy</DependentUpon>
+     
     </Page>
     <Page Include="Views\ScheduleManagerView.g.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
-      <DependentUpon>ScheduleManagerView.ammy</DependentUpon>
+    
     </Page>
     <Page Include="Views\OperEditorView.g.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
-      <DependentUpon>OperEditorView.ammy</DependentUpon>
+  
     </Page>
     <Page Include="Views\TaskEditorView.g.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
-      <DependentUpon>TaskEditorView.ammy</DependentUpon>
+    
     </Page>
   </ItemGroup>
   <ItemGroup>
