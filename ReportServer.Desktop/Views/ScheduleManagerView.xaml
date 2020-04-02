@@ -1,6 +1,6 @@
 <UserControl x:Class="ReportServer.Desktop.Views.ScheduleManagerView" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:ns0="clr-namespace:ReportServer.Desktop.AmmyExpression">
   <UserControl.Resources>
-    <ResourceDictionary Source="WpfResources/TemplatesDictionary.g.xaml"/>
+    <ResourceDictionary Source="WpfResources/TemplatesDictionary.xaml"/>
   </UserControl.Resources>
   <Grid Background="#F5F5F5">
     <Grid.RowDefinitions>

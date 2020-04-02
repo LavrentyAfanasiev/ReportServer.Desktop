@@ -1,6 +1,6 @@
 <UserControl x:Class="ReportServer.Desktop.Views.WpfResources.OperInstancesView" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" >
   <UserControl.Resources>
-    <ResourceDictionary Source="TemplatesDictionary.g.xaml"/>
+    <ResourceDictionary Source="TemplatesDictionary.xaml"/>
   </UserControl.Resources>
   <Grid>
     <Grid.RowDefinitions>

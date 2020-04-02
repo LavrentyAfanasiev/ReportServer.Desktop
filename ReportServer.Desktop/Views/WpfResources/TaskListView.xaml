@@ -2,7 +2,7 @@
   <UserControl.Resources>
     <ResourceDictionary>
       <ResourceDictionary.MergedDictionaries>
-        <ResourceDictionary Source="TemplatesDictionary.g.xaml"/>
+        <ResourceDictionary Source="TemplatesDictionary.xaml"/>
       </ResourceDictionary.MergedDictionaries>
       <CollectionViewSource x:Key="TasksView" Source="{Binding Path=Tasks}">
         <CollectionViewSource.GroupDescriptions>
