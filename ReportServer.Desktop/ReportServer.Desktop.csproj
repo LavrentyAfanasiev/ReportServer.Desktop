@@ -202,7 +202,7 @@
     <PackageReference Include="Monik.Client.Azure" Version="1.1.1" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="ReactiveUI.Fody" Version="11.3.1" />
-    <PackageReference Include="SevenZipSharp.Interop" Version="19.0.0" />
+    <PackageReference Include="Squid-Box.SevenZipSharp" Version="1.2.265" />
     <PackageReference Include="System.Security.Cryptography.Algorithms" Version="4.3.1" />
     <PackageReference Include="System.Security.Cryptography.X509Certificates" Version="4.3.2" />
     <PackageReference Include="Ui.Wpf.Common" Version="2.0.0" />
